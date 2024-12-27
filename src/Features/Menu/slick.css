@@ -1,0 +1,63 @@
+
+
+.slick-slider {
+  display: flex;
+  justify-content: center; /* Centers the content inside the slick-slider */
+  align-items: center;
+}
+
+.slick-track {
+  display: flex; /* Ensures the track (which holds the slides) is a flex container */
+  justify-content: center;
+}
+
+.slick-slide {
+  display: flex;
+  justify-content: center; /* Centers individual slides if necessary */
+  
+}
+
+
+
+
+
+
+/* Basic styles for prev and next buttons */
+.slick-prev,
+.slick-next {
+ /* Custom background color */
+  color: white; /* Text color */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 50%;
+  position: absolute; /* Absolute positioning within the carousel */
+  top: 50%;
+  transform: translateY(-50%); /* Vertically center the buttons */
+  z-index: 10; /* Ensure the buttons are on top of the slider */
+}
+
+/* Position the left and right buttons */
+.slick-prev {
+  left: 10px; /* Adjust the position for the left button */
+}
+
+.slick-next {
+  right: 10px; /* Adjust the position for the right button */
+}
+
+
+/* Optional: Customize the arrows with icons */
+.slick-prev:before,
+.slick-next:before {
+  font-size: 18px; /* Adjust the icon size */
+  color: white; /* Arrow color */
+}
+
+/* Make sure the buttons are responsive */
+@media (max-width: 768px) {
+  .slick-prev,
+  .slick-next {
+    font-size: 16px; /* Adjust the size on small screens */
+  }
+}
