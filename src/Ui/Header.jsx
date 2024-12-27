@@ -1,6 +1,6 @@
 import SearchOrder from "../Features/Order/SearchOrder";
 import logo from "../UX/icons/_ (3).jpg";
-import Username from "../Features/User/username";
+import Username from "../Features/User/Username";
 import Button from "./Button";
 
 function Header() {
