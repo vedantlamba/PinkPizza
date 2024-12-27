@@ -37,7 +37,7 @@ function Cart() {
           )}
         </div>
 
-        <div className="flex flex-col items-center sm:flex-row w-full sm:w-[40%] justify-center sm:justify-evenly gap-4 sm:gap-0">
+        <div className="flex items-center sm:flex-row w-full sm:w-[40%] justify-center sm:justify-evenly gap-4 sm:gap-0">
           <Button to="/order/new" type="primary" px="4" py="1.5">
             Order Pizza
           </Button>
