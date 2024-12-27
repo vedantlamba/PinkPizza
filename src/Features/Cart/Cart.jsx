@@ -14,8 +14,9 @@ function Cart() {
 
   return (
     <div className="bg-secondary-meduim w-[100vw] h-[100vh] flex flex-col justify-between">
-      <Header />
-      <div className="flex flex-col items-center justify-center mt-20">
+      
+      <div className="flex flex-col items-center justify-start mt-20">
+        
         <Button to="/menu" type="primary" px="4" py="1.5">
           <MdArrowBack className="mr-3" /> Back To Menu
         </Button>
